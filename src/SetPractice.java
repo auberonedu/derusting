@@ -1,10 +1,15 @@
+import java.util.HashSet;
+
 public class SetPractice {
   public static void main(String[] args) {
     // Create a HashSet of Strings and assign it to a variable of type Set
+    HashSet<String> StringSet = new HashSet<>();
 
     // Add 3 elements to the set
     // (It's OK to do it one-by-one)
-
+      StringSet.add("TOMATO");
+      StringSet.add("POTATO");
+      StringSet.add("YAM");
     // Check whether the Set contains a given String
 
     // Remove an element from the Set
