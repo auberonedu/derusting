@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
@@ -12,11 +15,15 @@ public class StringPractice {
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
     System.out.println("Does the String have 'abc' in it? " + myWord.contains("abc"));
     // Iterate over the characters of the string, printing each one on a separate line
-
+    for (int i = 0; i < myWord.length(); i++) {
+      System.out.println(myWord.charAt(i));
+    }
     // Create an ArrayList of Strings and assign it to a variable
-
+    List<String> stringList = new ArrayList<>();
     // Add multiple strings to the List (OK to do one-by-one)
-
+    stringList.add("Cucumber");
+    stringList.add("Carrot");
+    stringList.add("Pepper");
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
 
