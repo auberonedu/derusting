@@ -6,3 +6,4 @@ As you work through this exercise, write down anything that you needed to look u
 - Map Entries
 - Set vs. Map
 - Float
+- .toCharArray()

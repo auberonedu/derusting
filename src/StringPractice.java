@@ -19,9 +19,11 @@ public class StringPractice {
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
     boolean substring = name.contains("abc");
     System.out.println(substring);
-    
-    // Iterate over the characters of the string, printing each one on a separate line
 
+    // Iterate over the characters of the string, printing each one on a separate line
+    for (char letter : name.toCharArray()) {
+      System.out.println(letter);
+    }
 
     // Create an ArrayList of Strings and assign it to a variable
 
