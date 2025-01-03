@@ -25,11 +25,13 @@ public class ArrayPractice {
     for (String string : arrayFour) {
       System.out.println(string);
     }
-    
+
     /*
      * Reminder!
      * 
      * Arrays start at index 0
      */
+
+     //DONE
   }
 }
