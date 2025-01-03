@@ -24,7 +24,7 @@ public class SetPractice {
     for (String veggie : StringSet) {
         System.out.println(veggie);
     }
-    
+
     /*
      * Warning!
      * 
@@ -37,5 +37,7 @@ public class SetPractice {
      * 
      * Also remember that sets do NOT have duplicates.
      */
+
+     //DONE
   }
 }
