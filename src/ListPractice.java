@@ -18,7 +18,11 @@ public class ListPractice {
     // Insert a new element at index 0 (the length of the list will change)
       stringList.add(0, "ORANGE");
     // Check whether the list contains a certain string
-
+      if (stringList.contains("AVOCADO")) {
+        System.out.println("We have avocado :)");
+      } else {
+        System.out.println("There is no avocado :(");
+      }
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
 
