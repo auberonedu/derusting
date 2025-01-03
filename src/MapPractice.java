@@ -1,10 +1,11 @@
 import java.util.HashMap;
+import java.util.Map;
 
 public class MapPractice {
   public static void main(String[] args) {
     // Create a HashMap with String keys and Integer values and
     // assign it to a variable of type Map
-    HashMap<String, Integer> map = new HashMap<String, Integer>();
+    Map<String, Integer> map = new HashMap<String, Integer>();
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
     map.put("Jameson", 18);

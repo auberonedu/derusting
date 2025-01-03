@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class StringPractice {
   public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class StringPractice {
       System.out.println(word.charAt(i));
     }
     // Create an ArrayList of Strings and assign it to a variable
-    ArrayList<String> list = new ArrayList<String>();
+    List<String> list = new ArrayList<>();
     // Add multiple strings to the List (OK to do one-by-one)
     list.add("Tina");
     list.add("Josh");
@@ -34,7 +35,7 @@ public class StringPractice {
     // Check whether two strings are equal
     String test1 = "Jameson";
     String test2 = "James"; 
-    if(test1 == test2){
+    if(test1.equals(test2)){
       System.out.println(test1 + " equals " + test2);
     }else{
       System.out.println(test1 + " does not equal " + test2);

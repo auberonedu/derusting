@@ -1,9 +1,10 @@
 import java.util.HashSet;
+import java.util.Set;
 
 public class SetPractice {
   public static void main(String[] args) {
     // Create a HashSet of Strings and assign it to a variable of type Set
-    HashSet<String> set = new HashSet<String>();
+    Set<String> set = new HashSet<>();
     // Add 3 elements to the set
     // (It's OK to do it one-by-one)
     set.add("Jameson");
