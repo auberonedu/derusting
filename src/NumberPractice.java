@@ -17,7 +17,8 @@ public class NumberPractice {
       System.out.println("Odd");
     }
     // Divide the number by another number using integer division
-
+    int divResult = 6 / 2;
+    System.out.println("Result of the division by 2: " + divResult);
     /*
      * Reminder!
      * 
