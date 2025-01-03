@@ -44,7 +44,7 @@ public class ListPractice {
       for (String fruit : stringList) {
         System.out.println(fruit);
       }
-      
+
     /*
      * Usage tip!
      * 
@@ -54,5 +54,7 @@ public class ListPractice {
      * Otherwise, if you're iterating the in the conventional order and don't need the
      * index values a for-each loop is cleaner.
      */
+
+     //DONE
   }
 }
