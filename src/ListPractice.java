@@ -11,7 +11,7 @@ public class ListPractice {
       stringList.add("BANANA");
       stringList.add("KIWI");
     // Print the element at index 1
-
+      System.out.println(stringList.get(1)); //output: BANANA
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
 
