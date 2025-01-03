@@ -12,10 +12,10 @@ public class ListPractice {
     myList.add("Cherry");
     myList.add("Banana");
     // Print the element at index 1
-
+    System.out.println("Element at index 1: " + myList.get(1));
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
-
+    
     // Insert a new element at index 0 (the length of the list will change)
 
     // Check whether the list contains a certain string
