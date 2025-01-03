@@ -24,7 +24,9 @@ public class ListPractice {
     System.out.println(myList.contains("Apple"));
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
-
+    for (int i = 0; i < myList.size(); i++) {
+      System.out.println("Index " + i + ": " + myList.get(i));
+    }
     // Sort the list using the Collections library
 
     // Iterate over the list using a for-each loop
