@@ -1,10 +1,13 @@
 public class ArrayPractice {
   public static void main(String[] args) {
     // Create an array of Strings of size 4
-      String[] arrayFour = new String[4];
+    String[] arrayFour = new String[4];
     // Set the value of the array at each index to be a different String
     // It's OK to do this one-by-one
-
+    arrayFour[0] = "ZERO";
+    arrayFour[1] = "ONE";
+    arrayFour[2] = "TWO";
+    arrayFour[3] = "THREE";
     // Get the value of the array at index 2
 
     // Get the length of the array
