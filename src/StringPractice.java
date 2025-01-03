@@ -1,11 +1,12 @@
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
-
+    String myWord = "Welcome";
     // Find the length of the string
-
+    System.out.println("Length of the Word: " + myWord.length());
     // Concatenate (add) two strings together and reassign the result
-
+    myWord = myWord + " Friend";
+    System.out.println("Concatenated String: " + myWord);
     // Find the value of the character at index 3
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
