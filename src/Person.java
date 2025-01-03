@@ -17,8 +17,10 @@ public class Person {
   }
 
   // Create a toString method that gives the name and age of the person
-
-
+  @Override
+  public String toString() {
+    return "Name: " + name + ", Age: " + age;
+  }
   // Implement the below public instance method "birthYear"
   // There should NOT be any print statement in this method.
   /**
