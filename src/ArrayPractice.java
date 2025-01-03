@@ -1,7 +1,9 @@
+import java.util.Arrays; 
 public class ArrayPractice {
   public static void main(String[] args) {
     // Create an array of Strings of size 4
     String[] strArray = {"red", "orange", "yellow", "green"};
+    System.out.println(Arrays.toString(strArray));
 
     // Set the value of the array at each index to be a different String
     // It's OK to do this one-by-one
@@ -9,6 +11,7 @@ public class ArrayPractice {
     strArray[1] = "purple";
     strArray[2] = "red";
     strArray[3] = "orange";
+    System.out.println(Arrays.toString(strArray));
 
     // Get the value of the array at index 2
     System.out.println("The value at index 2 is " + strArray[2]); // expect "The value at index 2 is red"

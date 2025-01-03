@@ -8,11 +8,13 @@ public class ListPractice {
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
     List<String> stringList = new ArrayList<String>();
+    System.out.println(stringList);
 
     // Add 3 elements to the list (OK to do one-by-one)
     stringList.add("banana");
     stringList.add("mango");
     stringList.add("lemon");
+    System.out.println(stringList);
 
     // Print the element at index 1
     System.out.println(stringList.get(1)); // should print "mango"

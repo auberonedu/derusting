@@ -57,4 +57,11 @@ Create an array with the following syntax:
 ```
 String[] arr = {"hi", "hey", "hello};
 ```
+### Print an array
+To print an array, you must convert it to a String.
+```
+import java.util.Arrays;
+int[] numbers = {1, 2, 3}
+System.out.println(Arrays.toString(numbers)) // expected output: "[1, 2, 3]"
+```
 - 
