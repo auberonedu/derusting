@@ -14,9 +14,13 @@ public class ArrayPractice {
     // Get the length of the array
     System.out.println("Length of the array: " + myArr.length);
     // Iterate over the array using a traditional for loop and print out each item
-
+    for (int i = 0; i < myArr.length; i++) {
+      System.out.println(myArr[i]);
+    }
     // Iterate over the array using a for-each loop and print out each item
-
+    for (String item : myArr) {
+      System.out.println(item);
+    }
     /*
      * Reminder!
      * 
