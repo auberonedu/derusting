@@ -19,12 +19,16 @@ public class MapPractice {
     mappy.replace("a", 0);
     // Check whether the Map contains a given key
     if (mappy.containsKey("d")) {
-      System.out.println("letter d is present within list MAPPY");
+      System.out.println("Letter d, is present within list MAPPY");
     } else {
       System.out.println("There is no key present");
     }
     // Check whether the Map contains a given value
-
+    if (mappy.containsValue(2)) {
+      System.out.println("Value 2, is present within list MAPPY");
+    } else {
+      System.out.println("There is no value present");
+    }
     // Iterate over the keys of the Map, printing each key
 
     // Iterate over the values of the map, printing each value
