@@ -40,14 +40,14 @@ public class Person {
 
   public static void main(String[] args) {
     // Create an instance of Person
-
+    Person person1 = new Person("Ali", 22);
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
-
+    Person person2 = new Person("Mark", 18);
     // Print the first person
-
+    System.out.println(person1);
     // Print the second person
-
+    System.out.println(person2);
     // Get the name of the first person and store it in a local variable
 
     // Using the birthYear method, get the birth year of the first person
