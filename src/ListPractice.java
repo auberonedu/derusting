@@ -34,7 +34,9 @@ public class ListPractice {
       Collections.sort(stringList);
     // Iterate over the list using a for-each loop
     // Print each value on a second line
-
+      for (String fruit : stringList) {
+        System.out.println(fruit);
+      }
     /*
      * Usage tip!
      * 
