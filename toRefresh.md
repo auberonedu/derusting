@@ -82,4 +82,15 @@ for (Map.Entry< String, Integer> entry : map.entrySet()) {
    System.out.println("Value: " + entry.getValue());
 }
 ```
+## Person
+### Class constructors
+```
+public class Turtle {
+   String name;
+
+   public Turtle(String name) {
+      this.name = name;
+   }
+}
+```
 - 
