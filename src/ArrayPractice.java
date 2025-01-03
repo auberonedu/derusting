@@ -9,9 +9,9 @@ public class ArrayPractice {
     arrayFour[2] = "TWO";
     arrayFour[3] = "THREE";
     // Get the value of the array at index 2
-
+    System.out.println(arrayFour[2]); //output: TWO
     // Get the length of the array
-
+    System.out.println(arrayFour.length);
     // Iterate over the array using a traditional for loop and print out each item
 
     // Iterate over the array using a for-each loop and print out each item
