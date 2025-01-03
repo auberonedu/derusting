@@ -19,9 +19,12 @@ public class SetPractice {
 
     // Get the size of the Set
       StringSet.size();
-      
-    // Iterate over the elements of the Set, printing each one on a separate line
 
+    // Iterate over the elements of the Set, printing each one on a separate line
+    for (String veggie : StringSet) {
+        System.out.println(veggie);
+    }
+    
     /*
      * Warning!
      * 
