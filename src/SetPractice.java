@@ -10,12 +10,16 @@ public class SetPractice {
       StringSet.add("TOMATO");
       StringSet.add("POTATO");
       StringSet.add("YAM");
+
     // Check whether the Set contains a given String
+      StringSet.contains("CABBAGE");
 
     // Remove an element from the Set
+      StringSet.remove("TOMATO");
 
     // Get the size of the Set
-
+      StringSet.size();
+      
     // Iterate over the elements of the Set, printing each one on a separate line
 
     /*
