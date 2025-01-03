@@ -12,11 +12,12 @@ public class MapPractice {
     myMap.put("Brandon", 88);
     myMap.put("Emily", 96);
     // Get the value associated with a given key in the Map
-
+    System.out.println("Valued assosiated with a given key of 'Alice': " + myMap.get("Alice"));
     // Find the size (number of key/value pairs) of the Map
-
-    // Replace the value associated with a given key (the size of the Map shoukld not change)
-
+    System.out.println("Size of the Map: " + myMap.size());
+    // Replace the value associated with a given key (the size of the Map should not change)
+    myMap.put("Alice", 76);
+    System.out.println("Updated value for 'Alice' key: " + myMap.get("Alice"));
     // Check whether the Map contains a given key
 
     // Check whether the Map contains a given value
