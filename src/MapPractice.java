@@ -16,9 +16,13 @@ public class MapPractice {
     // Find the size (number of key/value pairs) of the Map
     mappy.size();
     // Replace the value associated with a given key (the size of the Map shoukld not change)
-
+    mappy.replace("a", 0);
     // Check whether the Map contains a given key
-
+    if (mappy.containsKey("d")) {
+      System.out.println("letter d is present within list MAPPY");
+    } else {
+      System.out.println("There is no key present");
+    }
     // Check whether the Map contains a given value
 
     // Iterate over the keys of the Map, printing each key
