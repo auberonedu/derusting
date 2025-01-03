@@ -4,7 +4,7 @@ public class NumberPractice {
     float floatNum = -7.7f;
 
     // Create an int with a positive value and assign it to a variable
-
+    int intNum = 9;
     // Use the modulo % operator to find the remainder when the int is divided by 3
 
     // Use the modulo % operator to determine whether the number is even
