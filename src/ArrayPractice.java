@@ -17,7 +17,9 @@ public class ArrayPractice {
       System.out.println(arrayFour[i]);
     }
     // Iterate over the array using a for-each loop and print out each item
-
+    for (String string : arrayFour) {
+      System.out.println(string);
+    }
     /*
      * Reminder!
      * 
