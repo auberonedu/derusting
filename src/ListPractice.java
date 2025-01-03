@@ -33,7 +33,9 @@ public class ListPractice {
     System.out.println("Sorted List: " + myList);
     // Iterate over the list using a for-each loop
     // Print each value on a second line
-
+    for (String fruit : myList) {
+      System.out.println(fruit);
+    }
     /*
      * Usage tip!
      * 
