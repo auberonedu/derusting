@@ -30,9 +30,13 @@ public class MapPractice {
       System.out.println("There is no value present");
     }
     // Iterate over the keys of the Map, printing each key
-
+    for (String key : mappy.keySet()) {
+      System.out.println(key);
+    }
     // Iterate over the values of the map, printing each value
-
+    for (Integer value : mappy.values()) {
+      System.out.println(value);
+    }
     // Iterate over the entries in the map, printing each key and value
 
     /*
