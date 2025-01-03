@@ -14,7 +14,7 @@ public class ListPractice {
       System.out.println(stringList.get(1)); //output: BANANA
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
-
+      stringList.set(1, "STRAWBERRY");
     // Insert a new element at index 0 (the length of the list will change)
 
     // Check whether the list contains a certain string
