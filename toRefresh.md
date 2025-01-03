@@ -51,4 +51,10 @@ The syntax for a for-each loop is as follows: "for (TYPE VARIABLE : SOURCE) { //
       System.out.println(animal);
     };
 ```
+## Array Practice
+### Create an Array
+Create an array with the following syntax:
+```
+String[] arr = {"hi", "hey", "hello};
+```
 - 
