@@ -42,6 +42,11 @@ public class StringPractice {
     System.out.println(SpiderPeople);
     
     // Check whether two strings are equal
+    if (Spiders.get(3).equals(4)) {
+      System.out.println("Their names are equal!");
+    } else {
+      System.out.println("Their names are not equal");
+    }
 
     /*
      * Reminder!
