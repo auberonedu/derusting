@@ -21,7 +21,7 @@ public class ListPractice {
     myList.set(0, "Kiwi");
     System.out.println("Size of the List after the second insertion: " + myList.size());
     // Check whether the list contains a certain string
-
+    System.out.println(myList.contains("Apple"));
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
 
