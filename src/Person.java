@@ -58,9 +58,11 @@ public class Person {
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
-
+    int currentYear = 2025;
+    int birthYear1 = personOne.birthYear(currentYear);
 
     // In a separate statement, print the local variable holding the birth year.
+    System.out.println(personOne.name + "Birth Year: " + birthYear1); 
 
     /**
      * Terminology!
