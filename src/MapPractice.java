@@ -38,7 +38,10 @@ public class MapPractice {
       System.out.println(value);
     }
     // Iterate over the entries in the map, printing each key and value
-
+    for (HashMap.Entry<String, Integer> entries : mappy.entrySet()) {
+      System.out.println("KEY " + entries.getKey());
+      System.out.println("VALUE " + entries.getValue());
+    }
     /*
      * Usage tip!
      * 
