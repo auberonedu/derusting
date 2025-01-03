@@ -16,7 +16,8 @@ public class NumberPractice {
       System.out.println("ODD");
     }
     // Divide the number by another number using integer division
-
+    int division = positiveVal / 3;
+    System.out.println(division);
     /*
      * Reminder!
      * 
