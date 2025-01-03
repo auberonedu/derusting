@@ -22,7 +22,7 @@ public class NumberPractice {
     // Divide the number by another number using integer division
     int division = positiveVal / 3;
     System.out.println(division);
-    
+
     /*
      * Reminder!
      * 
@@ -30,6 +30,6 @@ public class NumberPractice {
      * Example: 
      * 7 / 3 = 2 when performing int division
      */
-
+    //DONE
   }
 }
