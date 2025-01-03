@@ -10,11 +10,10 @@ public class SetPractice {
     mySet.add("Math");
     mySet.add("English");
     mySet.add("Music");
-    mySet.add("PE");
     // Check whether the Set contains a given String
     System.out.println("Does the Set contains Math? " + mySet.contains("Math"));
     // Remove an element from the Set
-    mySet.remove("PE");
+    mySet.remove("Math");
     // Get the size of the Set
     System.out.println("Size of the Set: " + mySet.size());
     // Iterate over the elements of the Set, printing each one on a separate line
