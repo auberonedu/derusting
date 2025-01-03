@@ -40,22 +40,22 @@ public class Person {
 
   public static void main(String[] args) {
     // Create an instance of Person
-    Person person1 = new Person("Ali", 22);
+    Person firstPerson = new Person("Ali", 22);
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
-    Person person2 = new Person("Mark", 18);
+    Person secondPerson = new Person("Mark", 18);
     // Print the first person
-    System.out.println(person1);
+    System.out.println(firstPerson);
     // Print the second person
-    System.out.println(person2);
+    System.out.println(secondPerson);
     // Get the name of the first person and store it in a local variable
-
+    String firstPersonName = firstPerson.name; 
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
-
+    int firstPersonBirthYear = firstPerson.birthYear(2025);
     // In a separate statement, print the local variable holding the birth year.
-
+    System.out.println(firstPersonName + "'s Birth year: " + firstPersonBirthYear);
     /**
      * Terminology!
      * 
