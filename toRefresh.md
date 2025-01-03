@@ -1,5 +1,96 @@
 # Items to Refresh on:
 
-As you work through this exercise, write down anything that you needed to look up or struggled to remember here. It can be just a word or two (e.g. "joining strings"). You can use this as a guide of what to make extra sure you're refreshed on before exams and interviews.
+These are all items that I either had to search online or got wrong on the first try and had to retype.
 
+## Number Practice
+### Floats
+Create a float using the "float" keyword and an "f" at the end of the number.
+```
+float exampleFloat = 0.123f;
+```
+### Print to console
+To print in Java, call the println() method on System.out.
+```
+System.out.println("")
+```
+
+## List Practice
+### Imports
+To use an ArrayList, you must first import the java.util package.
+```
+import java.util.ArrayList;
+```
+### List types
+When you create a list or an array list, you should specify the type of data is contained in that list, using "<>".
+```
+List<String> stringList = new ArrayList<String>();
+```
+### Adding to a list
+Use the "add" method to add an item to a list or array list.
+```
+listOfDigits.add(2);
+```
+### Changing an element at an index on a list
+Use the "set" method to change the item at a specific index without changing the length of the list.
+```
+listOfFruit.set(0, "apple");
+```
+### Collections
+To use the Collections library, you must first import the java.util package.
+```
+import java.util.Collections;
+```
+Use Collections.sort() to sort the contents of a list or array list.
+```
+Collections.sort(listOfGrades);
+```
+### For Each
+The syntax for a for-each loop is as follows: "for (TYPE VARIABLE : SOURCE) { // do code};"
+```
+   for (String animal : zoo) {
+      System.out.println(animal);
+    };
+```
+## Array Practice
+### Create an Array
+Create an array with the following syntax:
+```
+String[] arr = {"hi", "hey", "hello};
+```
+### Print an array
+To print an array, you must convert it to a String.
+```
+import java.util.Arrays;
+int[] numbers = {1, 2, 3}
+System.out.println(Arrays.toString(numbers)) // expected output: "[1, 2, 3]"
+```
+## Map Practice
+### Iterate over a map
+To iterate over the keys of a map, use the keySet() method on the map object; to iterate over the values, use the values() methos on the map object. To iterate over BOTH looks a little more complicated (see example below). Iterate over Map.Entry<> types through the map.entrySet().
+```
+for (String key : map.keySet()) {
+   // do something with key
+}
+
+for (Integer value : map.values()) {
+   // do something with values
+}
+
+for (Map.Entry< String, Integer> entry : map.entrySet()) {
+   // do something with keys and values
+   System.out.println("Key: " + entry.getKey());
+   System.out.println("Value: " + entry.getValue());
+}
+```
+## Person
+### Class constructors
+```
+public class Turtle {
+   String name;
+
+   public Turtle(String name) {
+      this.name = name;
+   }
+}
+```
 - 
