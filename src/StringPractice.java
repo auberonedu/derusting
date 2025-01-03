@@ -14,10 +14,14 @@ public class StringPractice {
     System.out.println(result);
 
     // Find the value of the character at index 3
+    System.out.println(name.charAt(3));
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
-
+    boolean substring = name.contains("abc");
+    System.out.println(substring);
+    
     // Iterate over the characters of the string, printing each one on a separate line
+
 
     // Create an ArrayList of Strings and assign it to a variable
 
