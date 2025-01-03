@@ -34,14 +34,18 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
-
+  public int birthYear(int currentYear) {
+    return currentYear - age;
+  }
 
   public static void main(String[] args) {
     // Create an instance of Person
+    Person personOne = new Person("Caitlyn Kiramman",24);
 
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
-
+    Person personTwo = new Person("Mel Medarda", 33);
+    
     // Print the first person
 
     // Print the second person

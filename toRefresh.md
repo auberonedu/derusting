@@ -10,3 +10,5 @@ As you work through this exercise, write down anything that you needed to look u
 
 - Public Private
 - Constructor
+- toString
+- Instance
