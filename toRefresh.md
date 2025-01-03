@@ -7,3 +7,4 @@ As you work through this exercise, write down anything that you needed to look u
 - How to add a new value (arrayList)
 - How to reset a value (arrayList)
 - How to make a hashset (also what is a hashset)
+- How to iterate through hashmap 
