@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListPractice {
@@ -28,7 +29,8 @@ public class ListPractice {
       System.out.println("Index " + i + ": " + myList.get(i));
     }
     // Sort the list using the Collections library
-
+    Collections.sort(myList);
+    System.out.println("Sorted List: " + myList);
     // Iterate over the list using a for-each loop
     // Print each value on a second line
 
