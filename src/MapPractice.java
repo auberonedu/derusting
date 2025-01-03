@@ -1,12 +1,15 @@
-
+import java.util.HashMap;
 
 public class MapPractice {
   public static void main(String[] args) {
     // Create a HashMap with String keys and Integer values and
     // assign it to a variable of type Map
-
+    HashMap<String, Integer> mappy = new HashMap<>();
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
+      mappy.put("a", 1);
+      mappy.put("b", 2);
+      mappy.put("c", 3);
 
     // Get the value associated with a given key in the Map
 
