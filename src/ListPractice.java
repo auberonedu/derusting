@@ -16,7 +16,7 @@ public class ListPractice {
     // (Do not insert a new value. The length of the list should not change)
       stringList.set(1, "STRAWBERRY");
     // Insert a new element at index 0 (the length of the list will change)
-
+      stringList.add(0, "ORANGE");
     // Check whether the list contains a certain string
 
     // Iterate over the list using a traditional for-loop.
