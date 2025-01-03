@@ -26,7 +26,7 @@ public class Person {
   /**
    * birthYear returns the year the person was born.
    * 
-   * The birth year is calculated by subtracting the person's age from currentYear
+   * The birth year is calculated by subtracting the person's age from current Year
    * that's passed in as an int. It assumes that the person's birthday has already
    * passed this year.
    * 
@@ -34,7 +34,9 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
-
+  public int birthYear(int currentYear) {
+    return currentYear - age;
+  }
 
   public static void main(String[] args) {
     // Create an instance of Person
