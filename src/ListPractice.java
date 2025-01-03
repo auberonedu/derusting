@@ -1,13 +1,17 @@
+import java.util.*;
+
 public class ListPractice {
 
 
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
-
+    List<String> myList = new ArrayList<String>();
     // Add 3 elements to the list (OK to do one-by-one)
-
+    myList.add("hello");
+    myList.add("hi");
+    myList.add("hey");
     // Print the element at index 1
-
+    System.out.println(myList.get(1));
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
 
