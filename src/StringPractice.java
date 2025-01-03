@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
@@ -26,12 +28,17 @@ public class StringPractice {
     }
 
     // Create an ArrayList of Strings and assign it to a variable
-
+    ArrayList<String> Spiders = new ArrayList<>();
     // Add multiple strings to the List (OK to do one-by-one)
+        Spiders.add("Peter Parker");
+        Spiders.add("Miguel O'Hara");
+        Spiders.add("Miles Morales");
+        Spiders.add("Gwen Stacy");
+        Spiders.add("Peni Parker");
 
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
-
+   
     // Check whether two strings are equal
 
     /*
