@@ -64,4 +64,22 @@ import java.util.Arrays;
 int[] numbers = {1, 2, 3}
 System.out.println(Arrays.toString(numbers)) // expected output: "[1, 2, 3]"
 ```
+## Map Practice
+### Iterate over a map
+To iterate over the keys of a map, use the keySet() method on the map object; to iterate over the values, use the values() methos on the map object. To iterate over BOTH looks a little more complicated (see example below). Iterate over Map.Entry<> types through the map.entrySet().
+```
+for (String key : map.keySet()) {
+   // do something with key
+}
+
+for (Integer value : map.values()) {
+   // do something with values
+}
+
+for (Map.Entry< String, Integer> entry : map.entrySet()) {
+   // do something with keys and values
+   System.out.println("Key: " + entry.getKey());
+   System.out.println("Value: " + entry.getValue());
+}
+```
 - 
