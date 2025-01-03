@@ -12,9 +12,9 @@ public class MapPractice {
       mappy.put("c", 3);
 
     // Get the value associated with a given key in the Map
-
+    mappy.get("a");
     // Find the size (number of key/value pairs) of the Map
-
+    mappy.size();
     // Replace the value associated with a given key (the size of the Map shoukld not change)
 
     // Check whether the Map contains a given key
