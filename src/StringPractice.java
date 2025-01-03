@@ -26,9 +26,10 @@ public class StringPractice {
     stringList.add("Pepper");
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
-
+    System.out.println("Joined String: " + String.join(", ", stringList));
     // Check whether two strings are equal
-
+    String anotherWord = "Welcome Friend";
+    System.out.println("Are the Strings equal to each other? " + myWord.equals(anotherWord));
     /*
      * Reminder!
      * 
