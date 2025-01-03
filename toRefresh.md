@@ -7,3 +7,6 @@ As you work through this exercise, write down anything that you needed to look u
 - Set vs. Map
 - Float
 - .toCharArray()
+
+- Public Private
+- Constructor
